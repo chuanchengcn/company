@@ -1,0 +1,131 @@
+@CHARSET "UTF-8";
+.nav-header-alert .alert-block {
+padding-top: 14px;
+padding-bottom: 14px;
+}
+.alert-login-form{
+ margin: 0px;	
+ padding: 0px;
+}
+.alert-login-form-content{
+	float: right;
+	margin-right: 200px;
+}
+.navbar-header{
+	/**border-bottom: 4px solid #61C168; 绿色 **/
+	border-bottom: 4px solid #FF6F3D;
+}
+.navbar-header .navbar{
+	margin-bottom: 0px;
+}
+.navbar-header .navbar a.logo{
+	float: left;
+}
+.nav-logo{
+	width: 300px;
+	height: 70px;
+}
+#nav-search {
+   float: right;
+  /** width: 500px;**/
+   
+}
+#nav-search .search-tag{
+	clear: both;
+	width: 400px;
+	height: 25px;
+	margin-top: 10px;
+}
+#nav-search .input-append{
+	clear: both;
+}
+#nav-search .search-content{
+	height: 34px;
+	width: 318px;
+	float: left;
+}
+
+#nav-search .search-tag li{
+padding: 0px 12px 0 18px;
+color: #000;
+display: inline;
+float: left;
+line-height: 19px;
+}
+#nav-search .search_btn{
+background-image: url(../images/ico.png);
+background-repeat: no-repeat;
+float: right;
+width: 44px;
+height: 44px;
+background-position: 0px -427px;
+text-indent: -2999px;
+vertical-align: middle;
+}
+#nav-search .search_btn:hover {
+  background-position: 0px -427px;
+}
+#main-nav {
+float: left;
+width: 480px;
+overflow: hidden;
+}
+#main-nav  ul.nav-title li{
+	display: block;
+	float: left;
+	_display: inline;
+	text-align: center;
+	font-size: 14px;
+	border: 0;
+	cursor: pointer;
+	margin-right: 1px;
+	width: 100px;
+}
+#main-nav  ul.nav-title li.active{
+	background: #fe693e;
+	color: #fff;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+}
+#main-nav  ul.nav-title li:HOVER{
+	background: #fe693e;
+	color: #fff;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+}
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+	 background-color: #fe693e;
+	 border-radius: 3px;
+}
+
+.tel{
+background-image: url(../images/header.png);
+background-repeat: no-repeat;
+width: 238px;
+height: 40px;
+background-position: 0px 0px;
+margin-bottom: 5px;
+}
+.main-nav-top{
+	margin-top: 56px;
+}
+
+#main-nav .nav-title a{
+	font-size: 16px;
+	padding: 10px;
+}
+.navbar .nav > li > a {
+	color: #333;
+}
+
+.navbar-header-nav{
+}
+.navbar-header-nav-title li {
+	font-size: 15px;
+}
+.navbar-header-nav-title li.active{
+	font-weight: bolder;
+}
+
+
+
